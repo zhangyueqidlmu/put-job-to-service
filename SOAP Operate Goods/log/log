@@ -1,0 +1,232 @@
+2016-12-14 09:00:44 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 1 triggers
+2016-12-14 09:00:44 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.simpl.PropertySettingJobFactory.newJob(51) - Producing instance of Job 'group1.Goods Job', class=goods.handler.GoodsHandler
+2016-12-14 09:00:44 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 1 triggers
+2016-12-14 09:00:44 DEBUG [DefaultQuartzScheduler_Worker-5] org.quartz.core.JobRunShell.run(201) - Calling execute on job group1.Goods Job
+2016-12-14 09:00:44 INFO  [DefaultQuartzScheduler_Worker-5] goods.handler.GoodsHandler.execute(17) - GoodsHandler started!
+2016-12-14 09:00:44 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.simpl.PropertySettingJobFactory.newJob(51) - Producing instance of Job 'group2.SFDCSession Job', class=goods.handler.SFDCHandler
+2016-12-14 09:00:44 INFO  [DefaultQuartzScheduler_Worker-5] goods.utilities.BaseConfig.<init>(29) - Load E:\workspace\SOAP Operate Goods\src\SFDCConf.properties
+2016-12-14 09:00:44 DEBUG [DefaultQuartzScheduler_Worker-6] org.quartz.core.JobRunShell.run(201) - Calling execute on job group2.SFDCSession Job
+2016-12-14 09:00:44 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:00:44 INFO  [DefaultQuartzScheduler_Worker-6] goods.handler.SFDCHandler.execute(21) - SFDCHandler started!
+2016-12-14 09:00:44 INFO  [DefaultQuartzScheduler_Worker-6] goods.utilities.BaseConfig.<init>(29) - Load E:\workspace\SOAP Operate Goods\src\SFDCConf.properties
+2016-12-14 09:00:44 INFO  [DefaultQuartzScheduler_Worker-6] goods.service.SFDCService.createSFDCConn(47) - Login SFDC start!
+2016-12-14 09:00:44 WARN  [DefaultQuartzScheduler_Worker-5] goods.service.GoodsService.execute(42) - Can not find Goods from csv!
+2016-12-14 09:00:44 INFO  [DefaultQuartzScheduler_Worker-5] goods.handler.GoodsHandler.execute(20) - GoodsHandler Completed!
+2016-12-14 09:00:45 INFO  [DefaultQuartzScheduler_Worker-6] goods.service.SFDCService.createSFDCConn(49) - Login SFDC end!
+2016-12-14 09:00:45 INFO  [DefaultQuartzScheduler_Worker-6] goods.handler.SFDCHandler.execute(24) - SFDCHandler Completed!
+2016-12-14 09:01:13 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:01:39 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:02:04 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:02:33 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:03:01 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:03:31 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:04:00 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:04:23 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:04:52 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:05:16 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:05:40 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:06:08 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:06:35 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:07:05 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:07:30 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:07:56 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:08:23 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:08:51 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:09:19 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:09:46 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:10:11 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:10:35 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:10:58 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:11:23 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:11:51 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:12:14 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:12:42 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:13:09 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:13:38 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:14:01 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:14:26 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:14:52 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:15:19 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:15:44 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 1 triggers
+2016-12-14 09:16:00 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.simpl.PropertySettingJobFactory.newJob(51) - Producing instance of Job 'group1.Goods Job', class=goods.handler.GoodsHandler
+2016-12-14 09:16:00 DEBUG [DefaultQuartzScheduler_Worker-7] org.quartz.core.JobRunShell.run(201) - Calling execute on job group1.Goods Job
+2016-12-14 09:16:00 INFO  [DefaultQuartzScheduler_Worker-7] goods.handler.GoodsHandler.execute(17) - GoodsHandler started!
+2016-12-14 09:16:00 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:16:00 INFO  [DefaultQuartzScheduler_Worker-7] goods.utilities.BaseConfig.<init>(29) - Load E:\workspace\SOAP Operate Goods\src\SFDCConf.properties
+2016-12-14 09:16:00 WARN  [DefaultQuartzScheduler_Worker-7] goods.service.GoodsService.execute(42) - Can not find Goods from csv!
+2016-12-14 09:16:00 INFO  [DefaultQuartzScheduler_Worker-7] goods.handler.GoodsHandler.execute(20) - GoodsHandler Completed!
+2016-12-14 09:16:28 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:16:57 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:17:22 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:17:51 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:18:15 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:18:42 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:19:07 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:19:32 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:19:59 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:20:28 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:20:57 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:21:24 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:21:49 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:22:18 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:22:42 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:23:09 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:23:35 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:24:02 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:24:31 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:24:56 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:25:24 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:25:49 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:26:18 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:26:45 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:27:08 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:27:38 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:28:06 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:28:34 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:29:00 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:29:23 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:29:46 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 1 triggers
+2016-12-14 09:30:00 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.simpl.PropertySettingJobFactory.newJob(51) - Producing instance of Job 'group2.SFDCSession Job', class=goods.handler.SFDCHandler
+2016-12-14 09:30:00 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:30:00 DEBUG [DefaultQuartzScheduler_Worker-8] org.quartz.core.JobRunShell.run(201) - Calling execute on job group2.SFDCSession Job
+2016-12-14 09:30:00 INFO  [DefaultQuartzScheduler_Worker-8] goods.handler.SFDCHandler.execute(21) - SFDCHandler started!
+2016-12-14 09:30:00 INFO  [DefaultQuartzScheduler_Worker-8] goods.utilities.BaseConfig.<init>(29) - Load E:\workspace\SOAP Operate Goods\src\SFDCConf.properties
+2016-12-14 09:30:00 INFO  [DefaultQuartzScheduler_Worker-8] goods.service.SFDCService.createSFDCConn(47) - Login SFDC start!
+2016-12-14 09:30:01 INFO  [DefaultQuartzScheduler_Worker-8] goods.service.SFDCService.createSFDCConn(49) - Login SFDC end!
+2016-12-14 09:30:01 INFO  [DefaultQuartzScheduler_Worker-8] goods.handler.SFDCHandler.execute(24) - SFDCHandler Completed!
+2016-12-14 09:30:28 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:30:56 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:31:23 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:31:52 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:32:17 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:32:40 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:33:07 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:33:33 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:34:01 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:34:27 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:34:52 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:35:18 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:35:44 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:36:12 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:36:39 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:37:06 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:37:30 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:37:54 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:38:24 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:38:53 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:39:16 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:39:40 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:40:07 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:40:33 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:40:57 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:41:27 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:41:56 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:42:20 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:42:44 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:43:13 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:43:40 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:44:07 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:44:34 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:44:59 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:45:27 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:45:50 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:46:17 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:46:41 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:47:10 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:47:39 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:48:08 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:48:36 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:49:02 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:49:25 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:49:49 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:50:17 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:50:46 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:51:10 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:51:34 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:52:01 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:52:26 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:52:51 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:53:15 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:53:44 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:54:10 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:54:39 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:55:02 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:55:29 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:55:58 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:56:23 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:56:48 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:57:16 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:57:44 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:58:11 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:58:36 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:58:59 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:59:27 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 09:59:55 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:00:18 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:00:46 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:01:13 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:01:41 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:02:06 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:02:29 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:02:55 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:03:24 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:03:51 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:04:20 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:04:45 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:05:09 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:05:36 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:06:03 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:06:32 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:06:58 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:07:27 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:07:54 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:08:19 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:08:43 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:09:08 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:09:37 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:10:01 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:10:30 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:10:58 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:11:24 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:11:48 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:12:17 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:12:41 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:13:07 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:13:32 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:14:02 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:14:29 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:14:55 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:15:19 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:15:42 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 1 triggers
+2016-12-14 10:16:00 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.simpl.PropertySettingJobFactory.newJob(51) - Producing instance of Job 'group1.Goods Job', class=goods.handler.GoodsHandler
+2016-12-14 10:16:00 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:16:00 DEBUG [DefaultQuartzScheduler_Worker-9] org.quartz.core.JobRunShell.run(201) - Calling execute on job group1.Goods Job
+2016-12-14 10:16:00 INFO  [DefaultQuartzScheduler_Worker-9] goods.handler.GoodsHandler.execute(17) - GoodsHandler started!
+2016-12-14 10:16:00 INFO  [DefaultQuartzScheduler_Worker-9] goods.utilities.BaseConfig.<init>(29) - Load E:\workspace\SOAP Operate Goods\src\SFDCConf.properties
+2016-12-14 10:16:00 WARN  [DefaultQuartzScheduler_Worker-9] goods.service.GoodsService.execute(42) - Can not find Goods from csv!
+2016-12-14 10:16:00 INFO  [DefaultQuartzScheduler_Worker-9] goods.handler.GoodsHandler.execute(20) - GoodsHandler Completed!
+2016-12-14 10:16:27 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:16:53 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:17:20 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:17:43 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:18:12 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:18:41 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:19:09 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:19:32 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:20:01 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:20:25 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:20:52 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:21:16 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:21:40 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:22:10 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:22:34 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:23:03 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:23:30 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:23:58 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:24:21 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:24:48 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:25:11 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:25:40 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:26:04 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:26:33 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
+2016-12-14 10:26:58 DEBUG [DefaultQuartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run(276) - batch acquisition of 0 triggers
